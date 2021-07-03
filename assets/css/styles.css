@@ -1051,3 +1051,15 @@ input {
     height: 640px;
   }
 }
+
+@media screen and (min-height: 768px) {
+  .place__card .mapouter {
+    width: 20rem;
+    align-items: center;
+  }
+
+  .home .class__img img{
+    max-width: auto !important;
+    height: auto;
+  }
+}
