@@ -687,19 +687,15 @@ input {
 }
 
 /*=============== SPONSORS ===============*/
-.sponsor__container {
+.sponsor__container  {
   grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
   justify-items: center;
   row-gap: 3.5rem;
 }
 
-.sponsor__content:hover .sponsor__img {
-  filter: invert(0.5);
-}
 
 .sponsor__img {
   width: 90px;
-  filter: invert(0.7);
   transition: var(--img-transition);
 }
 
@@ -757,7 +753,7 @@ input {
 
 .footer__copy, .footer__terms-link {
   font-size: var(--small-font-size);
-  color: var(--text-color-light);
+  color: var(--first-color-second);
 }
 
 .footer__terms {
